@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Biblioteca</h1>
+    <h2>Novo Autor</h2>
+    <form action="livro-gravar.php" method="post">
+        <label for="titulo">Titulo:</label>
+        <input type="text" name="titulo">
+        <br><br>
+        <label for="nac">Genero</label>
+        <select name="genero">
+            <option value="ficcao">Ficção</option>
+            <option value="romance">Romance</option>
+            <option value="aventura">Aventura</option>
+            <option value="fantasia">Fantasia</option>
+        </select><br><br>
+            
+        <label for="autor">Autor:</label>
+        <select name="autor">
+            <option value="Paulo">Paulo</option>
+            <option value="Maria">Maria</option>
+            <option value="joao">João</option>
+            <option value="livia">Livia</option>
+        </select><br><br>
+        <br><br>
+        <input type="submit" name="Gravar">
+    </form>
+    
+</body>
+</html>
